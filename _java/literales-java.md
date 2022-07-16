@@ -60,13 +60,13 @@ Los caracteres UTF-16 se pueden escribir directamente en la cadena o si nuestro 
 Por ejemplo la letra como la ñ se escaparía de la siguiente forma:
 
 ~~~java
-'u00F1'
+'\u00F1'
 ~~~
 
 Para utilizarla en una cadena de texto “España” podríamos poner
 
 ~~~java
-String pais = "Espau00F1a";
+String pais = "Espa\u00F1a";
 ~~~
 
 Para los caracteres utilizaremos comillas simples para delimitarlos, mientras que para las cadenas utilizaremos comillas dobles.
